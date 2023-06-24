@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Exo-Bold;
+    src: url("../fonts/Exo-Bold.ttf");
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfbf9;
+}
+
+.card {
+    width: 90vw;
+    min-height: 90vh;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 10px 42px 21px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    text-align: center;
+    font-family: Exo-Bold, sans-serif;
+}
+
+.product-image{
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 21px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-info p{
+    padding: 5px 7px;
+    font-family: Exo-Bold;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.error-alert{
+    z-index: 999 !important;
+    top: 10px;
+}
+
+.success-image{
+    max-width: 40vw !important;
+}
+.j-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-exo-bold{
+    font-family: Exo-Bold sans-serif;
+}
